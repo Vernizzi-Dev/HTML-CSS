@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto escondido - Hover</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            width: 300px;
+            background-image: linear-gradient(90deg, red, rgb(146, 10, 10), rgb(77, 5, 5));
+            color: white;
+            padding: 7px;
+        }
+        div:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>Passe o Mouse sobre o Texto abaixo</p>
+    <div>Passe o Mouse aqui!  :)
+        <p>TEXTO ESCONDIDO....</p>
+    </div>
+    <p>Fim do Exemplo :)</p>
+</body>
+</html>

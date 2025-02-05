@@ -1,0 +1,72 @@
+@charset "UTF-8";
+body{
+    background-color :rgb(36, 36, 36) ;
+}
+.box{
+    display: block;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    border: solid;
+    border-color: darkgray;
+    width: 500px;
+    margin: auto;
+    margin-top: 250px;
+    box-shadow: 13px 13px 15px black;
+
+     & .title{
+        display: block;
+        font-size: 30px;
+        padding-left: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-shadow: 7px 7px 8px black;
+     }
+     & .body{
+        padding-left: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-shadow: 5px 5px 6px black;
+     }
+     
+}
+.foto{
+   display: block;
+   height: 283px;
+   width: 500px;
+   margin: auto;
+   margin-top: 45px;
+   border: solid;
+   border-color: darkgrey;
+   margin-bottom: 70px;
+   box-shadow: 13px 13px 15px black;
+
+
+}
+.foto > img{
+   width: 500px;
+   heigth: 500px;
+}
+.corpo{
+   display: block;
+   margin: auto;
+   width: 500px;
+   height: 500px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: white;
+   border: solid;
+   border-color: darkgrey;
+   padding: 13px;
+   box-shadow: 13px 13px 15px black;
+  
+}
+.titulo{
+  text-align: center;
+  font-size: 22px;
+  text-shadow: 5px 5px 6px black;
+}
+.conteudo{
+   width: 500px;
+   text-align: justify;
+   text-shadow: 5px 5px 6px black;
+}
+.corpo:hover{
+   background-image: linear-gradient(90deg, rgb(7, 4, 15),rgb(20, 7, 49));
+}

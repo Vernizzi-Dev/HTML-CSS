@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Creepster&family=Eater&family=Frijole&family=Rubik+Glitch&family=Trade+Winds&family=Zen+Dots&display=swap');
+
+main{
+    height: auto;
+    width: 1000px;
+    background-color: black;
+    color: white;
+    margin:auto;
+    border-radius: 45px;
+    padding-top: 15px;
+    box-shadow: 14px 14px 24px rgb(89, 0, 255);
+    border: solid;
+    padding-bottom: 60px;
+
+
+}
+.começo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    padding: 10px 60px 10px 60px;
+    border: solid;
+    box-shadow: 4px 4px 10px rgb(89, 0, 255);
+    margin: 38px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 43px;
+    color: white;
+    text-shadow: 4px 4px 9px  rgb(89, 0, 255);
+    font-family: "Zen Dots", serif;
+    
+}
+body{
+    background-image: linear-gradient(60deg, rgb(0, 0, 0), rgb(32, 32, 32), rgb(58, 58, 58));
+}
+img{
+    display: block;
+    height: 500px;
+    width: 800px;
+    margin: auto;
+    padding-top: 25px;
+    border: solid;
+    box-shadow: 5px 5px 10px  rgb(89, 0, 255);
+}
+.titu1{
+    font-family: "Zen Dots", serif;
+    font-weight: 200px;
+    font-style: normal;
+    text-shadow: 6px 6px 10px rgb(89, 0, 255);
+    font-size: 57px;
+
+}

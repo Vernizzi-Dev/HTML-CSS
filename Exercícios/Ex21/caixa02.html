@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-image: linear-gradient(90deg,black, rgb(8, 8, 8), rgb(19, 19, 19));
+            margin: 0px;
+        }
+        header{
+            background-image: linear-gradient(68deg, rgb(31, 31, 31), rgb(59, 59, 59),rgb(134, 134, 134));
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 18px;
+            border-radius: 10px;
+            padding: 17px;
+            color: white;
+            border: solid;
+            border-width: 2px;
+        }
+        header > h1{
+            text-align: center;
+            font-size: 55px;
+            margin: 5px;
+        }
+        main{
+            background-image: linear-gradient(68deg, rgb(31, 31, 31), rgb(59, 59, 59),rgb(87, 87, 87));
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 18px;
+            border-radius: 10px;
+            padding: 17px;
+            color: white;
+            border: solid;
+            border-width: 2px;
+            text-align: justify;
+        }
+        nav > a{
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(240, 72, 255);
+            margin-right: 15px;
+            box-shadow: 4px 4px 4px rgb(42, 0, 46);
+
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            border: solid;
+            border-width: 2px;
+            padding: 3px;
+            color: rgb(235, 147, 247);
+        }
+        footer{
+            background-image: linear-gradient(68deg, rgb(31, 31, 31), rgb(59, 59, 59),rgb(87, 87, 87));
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 18px;
+            border-radius: 10px;
+            padding: 6px;
+            color: white;
+            border: solid;
+            border-width: 2px;
+            text-align:center;
+            font-size: 25px;
+            text-shadow: 2px 2px 3px rgb(240, 72, 255);
+        }
+        footer:hover{
+            background-image: linear-gradient(30deg,  rgb(240, 72, 255),  rgb(199, 9, 216), rgb(150, 0, 163));
+            box-shadow: 6px 6px 9px rgb(123, 2, 134);
+            text-shadow: 7px 7px 7px rgb(42, 0, 46);
+        }
+        article > aside{
+            color: rgb(240, 72, 255);
+            text-shadow: 2px 2px 3px rgb(42, 0, 46);
+        }
+        article > aside:hover{
+            text-decoration: underline;
+        }
+        article > h2{
+            color: white;
+            text-shadow: 2px 2px 3px rgb(240, 72, 255);
+        }
+        header > h2{
+            color: white;
+            text-shadow: 2px 2px 3px rgb(240, 72, 255);
+        }
+        #vernizzi > h1{
+            font-size: 60px;
+            text-align: center;
+            margin: 14px;
+        }
+        #vernizzi > h1:hover{
+            background-color: antiquewhite;
+            color: black;
+            text-align: center;
+            font-size: 60px;
+            width: 450px;
+            margin: auto;
+            margin-top: 11px;
+            border: solid;
+            border-width: 2px;
+            border-color: white;
+            background-image: linear-gradient(30deg,  rgb(240, 72, 255),  rgb(199, 9, 216), rgb(150, 0, 163));
+            border-radius: 10px;
+            color: white;
+            text-shadow: 7px 7px 7px rgb(42, 0, 46);
+        }
+        #bola{
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 50%;
+            border: solid;
+            border-color: rgb(229, 8, 211);
+            box-shadow: 2px 2px 4px rgba(240, 61, 225, 0.747) ;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: flexbox;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="vernizzi">
+            <h1>Vernizzi</h1>
+        </div>
+            <h2>Logo abaixo está meu contato pessoal</h2>
+                <nav>
+                    <a href="#">Clique Aqui!</a>
+                    <a href="#">Clique Aqui!</a>
+                    <a href="#">Clique Aqui</a>
+                </nav>
+    </header>
+    <main>
+        <section id="sobre mim">
+            <article>
+                <h2>O que Gosto de Fazer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam illum hic, minus quos exercitationem minima obcaecati doloremque delectus. Placeat alias quis voluptatem tempora sapiente enim assumenda saepe eius odio vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis necessitatibus hic quos mollitia suscipit quasi a porro numquam temporibus, cupiditate, sapiente est. Sit officiis perferendis, blanditiis labore similique maiores eaque.</p>
+                <aside>
+                    <p>Gosto de fazer mais coisas, porém não vejo necessidade de às colocar aqui. :)</p>
+                </aside>
+            </article>
+
+        </section>
+        <section id="hobbys">
+            <article>
+                <h2>Meus Hobbys</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium at numquam iure nihil eaque sunt mollitia tempora minima voluptas officia porro, commodi a? Cumque reprehenderit nihil soluta nobis numquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed enim debitis, corrupti nulla quo quas vero maiores quod? Iste qui velit labore dolores est quod tempora ea ex necessitatibus id.</p>
+                <aside>
+                    <p>Por enquanto faço apenas essas coisas, porém pretendo iniciar em mais atividades diárias.</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <strong>Victor Vernizzi</strong></p>
+    </footer>
+    <div id="bola">
+        <h3>Vernizzi</h3>
+    </div>
+</body>
+</html>

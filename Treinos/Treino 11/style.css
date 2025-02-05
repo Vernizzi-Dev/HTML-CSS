@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Bungee+Spice&family=Creepster&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Darumadrop+One&family=Eater&family=Frijole&family=Rubik+Glitch&family=Trade+Winds&family=Zen+Dots&display=swap');
+
+
+body{
+    background-image: linear-gradient(90deg, rgb(2, 58, 30),  rgb(6, 109, 58), rgb(7, 154, 46));
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;    
+    border: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url(floresta_amazonica211016ebc0667.jpg);
+    background-size:cover;
+    padding-top: 2px;
+}
+header{
+    font-family: "Trade Winds", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    color:  rgb(211, 255, 146);
+    text-shadow: 6px 6px 6px black;
+    text-align: center;
+    margin-bottom:10px;
+    background-image: linear-gradient(90deg, rgb(2, 58, 30),  rgb(6, 109, 58), rgb(7, 154, 46));
+    margin: 30px;
+    border-radius: 10px;
+}
+nav > a{
+    color: rgb(146, 253, 119) ;
+    margin-right: 22px;
+    border: solid;
+    border-width: 2px;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-decoration: none;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.734);
+    transition: 0.3s;
+    padding: 1.8px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.611);
+}
+nav > a:hover{
+    background-color: rgb(6, 58, 15);
+    border: solid;
+    border-width: 2px;
+    transition: 0.3s;
+}
+main{
+    text-align: justify;
+    background-color: rgb(211, 255, 146);
+    width: 1100px;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.595);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0%;
+    
+}
+main:hover{
+    border: solid;
+    border-color: yellowgreen;
+}
