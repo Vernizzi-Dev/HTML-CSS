@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="file:///C:/Users/victo/OneDrive/Documentos/ESTUDOS/HTML-CSS/Exercicios/Ex01/index.html" Clique aqui para executar o Exercício 1> </a>
+<a href="file:///C:/Users/victo/OneDrive/Documentos/ESTUDOS/HTML-CSS/Exercicios/Ex01/index.html"> Executar o Exercício 1</a>
