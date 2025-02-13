@@ -367,4 +367,9 @@ hr{
         margin-top: 90px;
         margin-bottom: 0%;
     }
+    .colum-white img:active{
+          filter: drop-shadow(5px 6px 15px #5605c7);
+         cursor:pointer ;
+         transform: scale(1.2);
+    }
 }
