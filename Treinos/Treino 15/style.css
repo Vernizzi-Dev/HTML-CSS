@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(90deg, rgb(46, 54, 70),  rgb(19, 26, 41));
+}
+header{
+    height: 150px;
+}
+h1{
+    background-image: linear-gradient(45deg, rgb(101, 213, 241), rgb(101, 227, 198), rgb(0, 255, 89), rgb(128, 242, 57));
+   background-clip: text; 
+   -webkit-text-fill-color: transparent;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 50px;
+   text-align: center;
+   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.284);
+}
+nav{
+    width: 0px;
+}
+nav ul{
+    display: flex;
+    width: 0%;
+}
+nav li{
+    margin-right: 70px;
+    list-style: none;
+    font-size: 20px;
+    width: 190px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(2deg, rgb(101, 213, 241), rgb(101, 227, 198), rgb(0, 255, 89), rgb(128, 242, 57));
+    background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    transition: 0.6s;
+}
+nav li:hover{
+    -webkit-text-fill-color: rgb(7, 255, 89) ;
+    font-size: 22px;
+    transition: 0.6s;
+    text-shadow: 0px 0px 7px  rgb(73, 173, 198);
+}
+nav li:active{
+    font-weight: bolder;
+    text-shadow: 0px 0px 9px  rgb(73, 173, 198);
+}
+a{
+    text-decoration: none;
+}
+/* NAV "QUEM EU SOU" COM APENAS UM MARGIN-LEFT PARA CENTRALIZAR AS OUTRAS*/
+#nav-princ{
+    margin-left: 320px;
+}
+main{
+    width: 900px;
+    color: rgb(189, 255, 254);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(19, 26, 41);
+    margin: auto;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    border-radius: 0px 40px;
+    padding: 10px 25px ;
+    border: solid rgb(89, 233, 192) 2px;
+    margin-left: 200px;
+
+}
+h2{
+    background-image: linear-gradient(2deg, rgb(101, 213, 241), rgb(101, 227, 198), rgb(0, 255, 89), rgb(128, 242, 57));
+    background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 8px;
+}
+.linha{
+    background-image: linear-gradient(90deg,   rgb(11, 13, 17),  rgb(19, 26, 41),  rgb(19, 26, 41));
+    border-radius: 10px;
+}
+.linha ul{
+    padding: 10px;
+}
+h3{
+    padding: 6px;
+    background-image: linear-gradient(2deg, rgb(101, 213, 241), rgb(101, 227, 198), rgb(0, 255, 89), rgb(128, 242, 57));
+    background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+.linha-2{
+    background-image: linear-gradient(90deg,  rgb(11, 13, 17),  rgb(19, 26, 41),  rgb(19, 26, 41));
+    border-radius: 6px; 
+}
+
+img{
+    width: 170px;
+    margin-top: 20px;
+    border: solid rgb(89, 233, 192) 2px;
+    box-shadow: 4px 4px 10px black;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+#card{
+    width: 190px;
+    background-color:rgb(19, 26, 41);
+    margin-top: 36px;
+    border-radius: 0px 20px 0px 20px;
+    border:solid rgb(89, 233, 192) 2px ;
+    color: white;
+    
+}
+#card > p{
+    width: 180px;
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+}
+#cursos{
+    font-size: 40px;
+    margin-left: 0px;
+}
+#curso-gradi{
+    background-image: linear-gradient(90deg,   rgb(19, 26, 41),rgb(19, 26, 41),  rgb(6, 15, 34),  rgb(19, 26, 41),  rgb(19, 26, 41));
+    height: 53px;
+    margin-bottom: 40px;
+}
+.listas li{
+    list-style: none;
+    padding-left: 10px;
+}
+#cursos-2{
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#etec{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#none-list{
+    padding-bottom: 10px;
+}
+#redes{
+    text-align: center;
+    margin: 40px;
+}
+#linha-3{
+    background-image: linear-gradient(90deg,   rgb(19, 26, 41),rgb(19, 26, 41),  rgb(6, 15, 34),  rgb(19, 26, 41),  rgb(19, 26, 41));
+}
+picture img{
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+picture img:hover{
+    filter: drop-shadow(0px 0px 7px  rgb(89, 233, 192));
+    transition: 0.5s;
+}
+#git{
+    margin-left: 25%;
+}
