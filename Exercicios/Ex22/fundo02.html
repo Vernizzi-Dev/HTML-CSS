@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalização dos Fundos</title>
+    <style>
+        body{
+            background-image: url(imagens/pattern001.png);
+            background-size: 100px 100px;
+            background-repeat:repeat-x;
+        }
+        #text-1{
+            padding-top: 90px;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        div{
+            width: 240px;
+            height: 100px;
+            margin: auto;
+            background-image: linear-gradient(to bottom, black, rgb(86, 52, 81));
+            border-radius: 14px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
+            transition: 1s;
+        }
+        div > h2{
+            text-align: center;
+            padding-top: 12%;
+            color: white;
+            transition: 1s;
+        }
+        div:hover{
+            width: 200px;
+            height:80px ;
+            transition: 1s;
+            cursor:pointer ;
+        }
+        div > h2:hover{
+            font-size: 20px;
+            transition: 1s;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="text-1">background-repeat: repeat-x</h2>
+    <a href="fundo03.html">
+        <div>
+            <h2>Próximo Exemplo ➥</h2>
+        </div>
+    </a>
+</body>
+</html>
