@@ -51,7 +51,7 @@ ul{
     margin-left: 30px;
 }
 #img-1:hover{
-    filter: drop-shadow(7px 7px 17px  rgb(157, 85, 225));
+    filter: drop-shadow(7px 7px 25px  rgb(157, 85, 225));
     transition: 1s;
 }
 .container{
