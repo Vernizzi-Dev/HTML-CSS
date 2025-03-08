@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste do Background-Position</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+         #home{
+            text-shadow: 3px 3px 6px  rgb(180, 110, 246);
+            font-weight: bolder;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -16,8 +22,12 @@
         <!--MENU-->
         <nav>
             <ul>
-                <li class="nav" id="home">CURSOS</li>
-                <li class="nav">BLOG</li>
+                <a href="index.html">
+                    <li class="nav" id="home">HOME</li>
+                </a>
+                <a href="pag02.html">
+                    <li class="nav">CURSOS</li>
+                </a>
                 <li class="nav">CERTIFICADO</li>
                 <li class="nav">SOBRE</li>
                 <li class="nav" id="cadastro">CADASTRE-SE</li>
@@ -25,23 +35,32 @@
         </nav>
     </header>
     <main>
-        <div class="container">
+        <div class="container1">
             <h1 id="titulo"><span id="model-titu">Subscribe Now</span> to Our Newsletter</h1>
             <img id="img-1" src="img/img-1.png" alt="Imagem 01">
         </div>
-            <div class="container">
-                <div id="login">
-                    <input type="text" placeholder="Digite seu Usuário">
+            <div class="container1">
+                <form id="login">
+                    <h1>Login</h1>
+                    <input type="email" placeholder="Usuário">
                     <input type="password" placeholder="Senha">
+                        <div class="esqueci-lembrar">
+                            <label>
+                                <input type="checkbox">
+                                Lembrar Senha
+                            </label>
+                            <a href="#">Esqueci a Senha</a>
+                        </div>
                     <input id="enviar" type="submit">
-                </div>
+                    <p class="cadastro">Não tem uma conta? <a href="#">Cadastre-se Aqui</a></p>
+                </form>
                 <p class="texto">A NexTech é uma plataforma inovadora e especializada no desenvolvimento de cursos online voltados para o ensino de programação e áreas relacionadas à tecnologia. Nosso compromisso é oferecer uma experiência de aprendizado de alta qualidade, combinando expertise técnica com uma abordagem pedagógica eficaz para garantir o sucesso de nossos alunos.</p>
             </div>
             <article class="pilares">
                 <h1 id="titu-meto">Metodologia</h1>
                 <h1>Conteúdo</h1>
             </article>
-            <article class="container">
+            <article class="container1">
                 <p id="metodologia"> Desenvolvemos cursos dinâmicos e interativos, utilizando uma combinação de videoaulas, exercícios práticos, quizzes e desafios de programação, para proporcionar uma imersão total nos conteúdos. Nossa metodologia é projetada para atender tanto iniciantes quanto profissionais que buscam aprofundar seus conhecimentos.</p>
                 <p id="conteudo">A NexTech se dedica a manter seu portfólio de cursos sempre atualizado com as últimas tendências e tecnologias emergentes. Nossos instrutores são especialistas com vasta experiência no mercado e buscam constantemente integrar as melhores práticas e ferramentas mais relevantes do setor.</p>
             </article>
@@ -49,7 +68,7 @@
                 <h1 id="tecnologia">Tecnologia</h1>
                 <h1 id="multi">Multiplataforma</h1>
             </article>
-            <article class="container">
+            <article class="container1">
                 <p id="tecnologia-1"> Utilizamos as melhores ferramentas tecnológicas disponíveis para garantir a estabilidade e a fluidez do aprendizado. A plataforma é desenvolvida com tecnologia de ponta, garantindo uma navegação rápida e sem interrupções, com recursos como fóruns de discussão, suporte ao vivo e feedback personalizado.</p>
                 <p id="plataforma">Oferecemos uma plataforma acessível de qualquer lugar e a qualquer momento. Nossos cursos podem ser feitos por desktop, tablet ou smartphone, permitindo que os alunos aprendam no seu próprio ritmo, de acordo com sua disponibilidade e necessidades.</p>
             </article>

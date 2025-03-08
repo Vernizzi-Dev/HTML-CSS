@@ -1,186 +1,305 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-body{
-    margin: 0px;
-    background-image: linear-gradient(90deg, rgb(29, 14, 87), rgb(30, 3, 55));
+body {
+  margin: 0px;
+  background-image: linear-gradient(90deg, rgb(29, 14, 87), rgb(30, 3, 55));
 }
-header{
-    height: 220px;
+header {
+  height: 220px;
 }
-#logo-1{
-    display: flex;
-    width: 90px;
-    filter: drop-shadow(0px 0px 4px rgba(214, 111, 212, 0.774));
-    margin: 20px 20px 0px 110px;
+#logo-1 {
+  display: flex;
+  width: 90px;
+  filter: drop-shadow(0px 0px 4px rgba(214, 111, 212, 0.774));
+  margin: 20px 20px 0px 110px;
 }
-#nextech{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
-    color: white;
-    padding-left: 117px;
+#nextech {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  padding-left: 117px;
 }
-.font-model{
-    font-size: 25px;
-    color: rgb(157, 85, 225);
+.font-model {
+  font-size: 25px;
+  color: rgb(157, 85, 225);
 }
-#home{
-    padding-left: 420px;
+#home {
+  padding-left: 420px;
 }
-.nav{
-    margin-left: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
-    font-size: 19px;
+.nav {
+  margin-left: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  font-size: 19px;
 }
-.nav:hover{
-    font-weight: bolder;
-    cursor: pointer;
-    text-shadow: 2px 2px 4px  rgb(157, 85, 225);
-    margin-left: 37px;
+.nav:hover {
+  font-weight: bolder;
+  cursor: pointer;
+  text-shadow: 2px 2px 4px rgb(157, 85, 225);
+  margin-left: 37px;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
-ul{
-    display: flex;
-    margin: 0px;
+ul {
+  display: flex;
+  margin: 0px;
 }
-#img-1{
-    filter: drop-shadow(5px 5px 14px  rgb(25, 0, 48));
-    transition: 1s;
-    margin-bottom: 30px;
-    margin-left: 30px;
+#img-1 {
+  filter: drop-shadow(5px 5px 14px rgb(25, 0, 48));
+  transition: 1s;
+  margin-bottom: 30px;
+  margin-left: 30px;
 }
-#img-1:hover{
-    filter: drop-shadow(7px 7px 25px  rgb(157, 85, 225));
-    transition: 1s;
+#img-1:hover {
+  filter: drop-shadow(7px 7px 25px rgb(157, 85, 225));
+  transition: 1s;
 }
-.container{
-    display: flex;
-    gap: 130px;
+.container1 {
+  display: flex;
+  gap: 130px;
 }
-#titulo{
-    width: 449px;
-    margin-left: 120px;
-    font-size: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.477);
+#titulo {
+  width: 449px;
+  margin-left: 120px;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.477);
 }
-#model-titu{
-    color: rgb(157, 85, 225);
+#model-titu {
+  color: rgb(157, 85, 225);
 }
-#login{
-    width: 100%;
-    max-width: 468px;
-    height: 250px;
-    border-radius: 18px;
-    background-color: rgba(255, 255, 255, 0.203);
-    border: 2px solid;
-    border-color: rgba(255, 255, 255, 0.364);
-    margin-left: 117px;
+#login {
+  width: 100%;
+  min-width: 350px;
+  max-width: 450px;
+  height: 340px;
+  border-radius: 18px;
+  background-color: rgba(255, 255, 255, 0.084);
+  border: 2px solid;
+  border-color: rgba(255, 255, 255, 0.364);
+  margin-left: 117px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    backdrop-filter: blur(7px);
-    transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(0px);
+  transition: 0.5s;
 }
-#login:hover{
-    box-shadow: 0px 0px 25px  rgb(157, 85, 225);
-    transition: 0.5s;
-}    
-#login > input{
-    border-radius: 20px;
-    padding: 10px;
-    margin-bottom: 14px;
-    width: 76%;
-
+#login:hover {
+  box-shadow: 0px 0px 25px rgb(157, 85, 225);
+  transition: 0.5s;
 }
-#login > input:hover{
-    cursor: pointer;
-    box-shadow: 0px 0px 14px  rgb(47, 151, 255);
+#login > input {
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 14px;
+  width: 76%;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  transition: 0.7s;
 }
-#enviar{
-    background-image: linear-gradient(to top, rgb(0, 17, 255), rgb(47, 151, 255));
-    color: white;
-    font-size: 15px;
-    width: 150px;
-    margin-left: 5px;
+#login > input::placeholder {
+  color: rgb(151, 151, 151);
+  padding-left: 10px;
 }
-.texto{
-    width: 450px;
-    text-align: justify;
-    padding-left: 35px;
-    padding-top: 40px;
-    font-size: 17px;
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+#login > input:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 14px rgb(47, 151, 255);
+  transition: 0.7s;
 }
-.pilares{
-    display: flex;
-    font-size: 35px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-top: 40px;
-    color: rgb(167, 96, 234) ;
-    transition: 0.6s;
+#enviar {
+  background-image: linear-gradient(to top, rgb(0, 17, 255), rgb(47, 151, 255));
+  color: white;
+  font-size: 15px;
+  width: 150px;
+  margin-left: 5px;
 }
-.pilares > h1:hover{
-    transition: 0.6s;
-    text-shadow: 0px 0px 13px  rgb(134, 20, 136);
+.texto {
+  width: 450px;
+  text-align: justify;
+  padding-left: 35px;
+  padding-top: 40px;
+  font-size: 17px;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.pilares {
+  display: flex;
+  font-size: 35px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-top: 40px;
+  color: rgb(167, 96, 234);
+  transition: 0.6s;
+}
+.pilares > h1:hover {
+  transition: 0.6s;
+  text-shadow: 0px 0px 13px rgb(134, 20, 136);
 }
 /*class*/
-.pilares > h1{
-    margin-left: 370px;
+.pilares > h1 {
+  margin-left: 370px;
 }
 /*titulo*/
-#titu-meto{
-    margin-left: 200px;
+#titu-meto {
+  margin-left: 200px;
 }
 /*texto*/
-#metodologia{
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: justify;
-    width: 480px;
-    margin-left:110px;
-    margin-right: 30px;
+#metodologia {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: justify;
+  width: 480px;
+  margin-left: 110px;
+  margin-right: 30px;
 }
 /*texto*/
-#conteudo{
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: justify;
-    width: 480px;
-    margin-left:0px; 
-    margin-right:100px;
+#conteudo {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: justify;
+  width: 480px;
+  margin-left: 0px;
+  margin-right: 100px;
 }
 /*titulo*/
-#tecnologia{
-    margin-left: 216px;
+#tecnologia {
+  margin-left: 216px;
 }
 /*texto*/
-#tecnologia-1{
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: justify;
-    width: 480px;
-    margin-left:110px;
-    margin-right: 30px;
+#tecnologia-1 {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: justify;
+  width: 480px;
+  margin-left: 110px;
+  margin-right: 30px;
 }
 /*titulo*/
-#multi{
-    margin-left: 330px;
+#multi {
+  margin-left: 330px;
 }
 /*texto*/
-#plataforma{
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: justify;
-    width: 480px;
-    margin-left:0px; 
-    margin-right:100px;
+#plataforma {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: justify;
+  width: 480px;
+  margin-left: 0px;
+  margin-right: 100px;
 }
-#cadastro{
-    color:  rgb(182, 104, 255);
+#cadastro {
+  color: rgb(182, 104, 255);
+}
+#login h1 {
+  color: white;
+  font-family: "Poppins", serif;
+}
+.esqueci-lembrar {
+  display: flex;
+  gap: 134px;
+  margin-bottom: 30px;
+  font-family: "Poppins", serif;
+  font-size: 13px;
+  color: white;
+}
+.esqueci-lembrar a {
+  text-decoration: none;
+  color: white;
+}
+.esqueci-lembrar a:hover {
+  text-decoration: underline;
+}
+.esqueci-lembrar input {
+  accent-color: rgb(234, 138, 255);
+}
+.esqueci-lembrar input:hover {
+  cursor: pointer;
+}
+.cadastro {
+  color: white;
+  font-family: "Poppins", serif;
+  font-size: 14px;
+}
+.cadastro a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+}
+.cadastro a:hover {
+  text-decoration: underline;
+}
+.container {
+  display: flex;
+  gap: 130px;
+}
+.container img {
+  width: 100%;
+  height: 170px;
+  margin-left: 50px;
+  border-radius: 17px 17px 0px 0px;
+  margin: auto;
+}
+.card {
+  width: 20%;
+  background-color: rgba(101, 52, 185, 0.353);
+  border-radius: 17px;
+  height: 400px;
+  transition: 0.4s;
+  margin-top: 70px;
+  box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.354);
+}
+.card h2 {
+  width: 210px;
+  padding-left: 30px;
+  text-align: start;
+  font-size: 18px;
+  font-family: "Poppins", serif;
+  color: white;
+}
+.card p {
+  width: 210px;
+  padding-left: 33px;
+  text-align: start;
+  font-size: 13px;
+  font-family: "Poppins", serif;
+  color: white;
+}
+.card a {
+  width: 210px;
+  padding-left: 33px;
+  text-align: start;
+  font-size: 13px;
+  font-family: "Poppins", serif;
+  color: rgb(145, 207, 255);
+  text-decoration: none;
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 60px rgb(110, 8, 141);
+  transition: 0.7s;
+}
+#margin-esq {
+  margin-left: 23vh;
+}
+#margin-esq2 {
+  margin-left: 23vh;
+}
+#margin-esq3 {
+  margin-left: 23vh;
+}
+nav a {
+  text-decoration: none;
 }
