@@ -25,7 +25,7 @@ header {
   color: rgb(157, 85, 225);
 }
 #home {
-  padding-left: 420px;
+  padding-left: 120px;
 }
 .nav {
   margin-left: 40px;
@@ -302,4 +302,81 @@ ul {
 }
 nav a {
   text-decoration: none;
+}
+.container3{
+  display: inline-block;
+}
+@media screen and (max-width: 750px){
+  .container1{
+    display: block;
+  }
+  header{
+    height: 170px;
+  }
+  #logo-1{
+    margin: 10px 0px 0px 20px;
+  }
+  #nextech{
+    padding-left: 27px;
+  }
+  #home{
+    padding: 0px;
+    margin-left: 4px;
+  }
+  #certificado{
+    display: none;
+  }
+  #sobre{
+    display: none;
+  }
+  #titulo{
+    font-size: 50px;
+    margin-left: 30px;
+  }
+  #img-1{
+    width: 300px;
+    margin-left: 20%;
+  }
+  #login{
+    margin-top: 50px;
+    width: 300px;
+    height: 400px;
+    margin-left: 15%;
+  }
+  .esqueci-lembrar{
+    gap: 60px;
+  }
+  .texto{
+    width: 400px;
+    margin-left: 4%;
+  }
+  .pilares{
+    display: block;
+  }
+  #titu-meto{
+    margin-left: 21%;
+  }
+  #titu-conteudo{
+    display: none;
+  }
+  #conteudo{
+    display: none;
+  }
+  #multi{
+    display: none;
+  }
+  #plataforma{
+    display: none;
+  }
+  #metodologia{
+    width:400px ;
+    margin-left: 10%;
+  }
+  #tecnologia{
+    margin-left: 25%;
+  }
+  #tecnologia-1{
+    width:400px ;
+    margin-left: 10%;
+  }
 }
