@@ -47,6 +47,10 @@ section.imagem{
     background-color: rgb(38, 38, 38);
     color: white;
 }
+section.imagem > p{
+    background-color: rgb(29, 29, 29);
+    width: 370px;
+}
 footer{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
