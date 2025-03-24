@@ -108,6 +108,9 @@ header a{
   font-family: "Poppins", sans-serif;
   cursor: default;
 }
+.decoration-text{
+  color:rgb(49, 49, 160);
+}
 
 /* SECTION 1 ----- SECTION 1*/
 
@@ -131,7 +134,7 @@ main > h1 {
 .pilares {
   display: flex;
   background-color: azure;
-  margin-top: 20px;
+  margin-top: 2%;
   align-items: center;
   width: 50vw;
   height:7.4vw;
@@ -257,3 +260,97 @@ main > h1 {
 
 
 /* PAGINA 2   /   LOCALIZAÇÃO*/
+
+#text-recep{
+  font-size: 2.6vw;
+  margin-right: 2%;
+}
+.paralax2{
+  height: 35vw;
+  width: 100vw;
+  background-image: url(img/local.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+/* PAGINA 3    /    DENTISTAS*/
+
+#text-grup{
+  font-size: 2.3vw;
+  margin-right: 1.8%;
+  margin-top: 11%;
+}
+.card{
+  display: flex;
+  gap: 3vw;
+  background-color: rgba(129, 188, 207, 0.521);
+  padding: 2vw;
+  width: 80vw;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  color: rgb(9, 9, 74);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.539);
+  margin-bottom: 5vw;
+  transition: 0.4s;
+}
+.card > h2{
+  font-size: 2.5vw;
+  text-align: center;
+  cursor: default;
+}
+.card > img{
+  width: 34vw;
+  border-radius: 15px;
+}
+.card > p{
+  font-size: 1.5vw;
+  text-align: justify;
+ cursor: default;
+}
+.centro2{
+  display: flex;
+  justify-content: center;
+}
+.card-reverse{
+  display: flex;
+  gap: 3vw;
+  flex-direction: row-reverse;
+  background-color:rgba(129, 188, 207, 0.521);
+  padding: 2vw;
+  width: 80vw;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  color: rgb(9, 9, 74);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.539);
+  margin-bottom: 5vw;
+  transition: 0.4s;
+}
+.card-reverse > h2{
+  font-size: 2.5vw;
+  text-align: center;
+  cursor: default;
+}
+.card-reverse > img{
+  width: 34vw;
+  border-radius: 15px;
+}
+.card-reverse > p{
+  font-size: 1.5vw;
+  text-align: justify;
+  cursor: default;
+}
+.main3{
+  height: 100%;
+}
+.card:hover{
+  transform: scale(1.05);
+  transition: 0.7s;
+}
+.card-reverse:hover{
+  transform: scale(1.05);
+  transition: 0.7s;
+}
