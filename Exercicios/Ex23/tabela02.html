@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        html{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table, td, th{
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        thead, th{
+            background-color: gray;
+            color: white;
+            padding: 20px; 
+        }
+        td.creci{
+            color: rgb(24, 153, 47);
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Páis ( ou território dependente)</th>
+                <th>Estimativa da ONU</th>
+                <th>Crescimento desde a última estimativa</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Índia</td>
+                <td>1 429 921 746</td>
+                <td class="creci">+269.108.746</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>China</td>
+                <td>1 426 391 281</td>
+                <td class="creci">+87.778.313</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Estados Unidos</td>
+                <td>346 353 341</td>
+                <td class="creci">+31.241.565</td>
+            </tr>
+        </tbody>
+        <tfoot>
+        </tfoot>
+    </table>
+</body>
+</html>
