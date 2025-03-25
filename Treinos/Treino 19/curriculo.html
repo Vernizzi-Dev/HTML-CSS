@@ -3,15 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vernizzi</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Currículo | V.Vernizzi</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+        *{
+            margin: 0px;
+            border: 0px;
+            padding: 0px;
+        }
+        body{
+            background-image: linear-gradient(90deg, rgb(108, 134, 212), rgb(203, 216, 255));
+        }
+        header{
+            position: relative;
+            height: 300px;
+        }
+        #curriculo{
+            font-size: 50px;
+            font-family: "Poppins", sans-serif;
+            color:  rgb(31, 31, 155);
+            text-align: center;
+            margin: 10px;
+        }
+        .container{
+            display: flex;
+            gap: 4%;
+        }
+        .container > img{
+            display: block;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid rgb(10, 47, 100);
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.64);
+            margin-left: 4%;
+            margin-top: 3%;
+        }
+        .inf-1{
+            width: 40vw;
+            font-family: "Poppins", sans-serif;
+            margin-top: 3%;
+            text-align: justify;
+        }
+        .inf-1 > h1{
+            color: rgb(32, 34, 151);
+        }
+        .inf-1 > h2{
+            font-size: 1.4vw;
+            color: rgb(49, 49, 195);
+            margin-bottom: 2vh;
+        }
+        .inf-1 strong{
+            color: rgb(19, 21, 131) ;
+        }
+        #margin-top{
+            margin-top: 15%;
+        }
+        .contato{
+            display: flex;
+            align-items: center;
+            background-color: rgb(108, 134, 212);
+            width: 22vw;
+            height: 10vh;
+            margin-top: 4%;
+            border-radius:30px;
+            transition: 0.4s;
+        }
+        .contato  img{
+            width: 12%;
+            margin-left: 5%;
+        }
+        .contato  h2{
+            color: rgb(19, 21, 131) ;
+            font-size: 1vw;
+            margin-left: 2%;
+            font-family: "Poppins", sans-serif;
+            margin-right: 2%;
+        }
+        .contato:hover{
+            transform: scale(1.1);
+            transition: 0.7s;
+            cursor: pointer;
+            background-image: linear-gradient(to top, rgb(81, 108, 190), rgb(108, 134, 212) 50%, rgb(81, 108, 190));
+        }
+        a{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
     <header>
+        <h1 id="curriculo">Currículo</h1>
         <div class="container">
             <img src="img/minha-foto-atualizada.jpeg" alt="Victor Vernizzi">
             <div class="inf-1">
-                <h1>Victor Vernizzi</h1>
+                <h1>Victor Vernizzi de Oliveira</h1>
                 <h2>Estudante de Programação</h2>
                 <p> Sou estudante do Ensino Médio e atualmente estou estudando na <strong>ETEC de Poá</strong> com habilitação técnica
                     em <strong>Desenvolvimento de Sistemas</strong>. Estou realizando cursos na área de desenvolvimento <strong>FullStack</strong>, onde
@@ -23,22 +114,30 @@
                     de soluções tecnológicas completas</p>
             </div>
             <div class="card">
-                <div class="contato" id="margin-top">
-                    <img src="img/email.png" alt="Email">
-                    <h2>victor.vernizzi01@Gmail.com</h2>
+                <a href="mailto:victor.vernizzi01@gmail.com">
+                    <div class="contato" id="margin-top">
+                        <img src="img/email.png" alt="Email">
+                        <h2>victor.vernizzi01@Gmail.com</h2>
+                    </div>
+                </a>
+                <a href="https://wa.me/5511997048551?text=Olá" target="_blank">
+                    <div class="contato">
+                        <img src="img/phone.png" alt="Telefone">
+                        <h2>(11) 99704-8551</h2>
+                    </div>
+                </a>
+                <a href="https://github.com/Vernizzi-Dev" target="_blank">
+                    <div class="contato">
+                        <img src="img/github.webp" alt="GitHub">
+                        <h2>Vernizzi-dev</h2>
+                </a>
                 </div>
-                <div class="contato">
-                    <img src="img/phone.png" alt="Telefone">
-                    <h2>(11) 99704-8551</h2>
-                </div>
-                <div class="contato">
-                    <img src="img/github.webp" alt="GitHub">
-                    <h2>Vernizzi-dev</h2>
-                </div>
-                <div class="contato">
-                    <img src="img/local.png" alt="Localização">
-                    <h2>Rua Jair de Godoy - Vila Açoreana - Poá SP</h2>
-                </div>
+                <a href="https://www.google.com/maps/place/Rua+Jair+de+Godoy+-+Po%C3%A1,+SP/@-23.5167023,-46.3384643,692m/data=!3m2!1e3!4b1!4m6!3m5!1s0x94ce7b1bfd4f0961:0x4c303b20d27954d!8m2!3d-23.5167023!4d-46.3384643!16s%2Fg%2F1ymws_rnl?entry=ttu&g_ep=EgoyMDI1MDMxOS4yIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" target="_blank">
+                    <div class="contato">
+                        <img src="img/local.png" alt="Localização">
+                        <h2>Rua Jair de Godoy - Vila Açoreana - Poá SP</h2>
+                    </div>
+                </a>
             </div>
         </div>
     </header>
