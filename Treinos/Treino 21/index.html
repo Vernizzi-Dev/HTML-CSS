@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VeDev</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="img/vedev-logo-png.png" alt="Logo da empresa VeDev" />
+      <a href="#section-1"><span>Curso</span></a>
+      <span>Método</span>
+      <span>Benefícios</span>
+      <span>Depoimentos</span>
+      <span id="inscreva-se">Inscreva-se Agora</span>
+    </header>
+    <main>
+      <div class="form-container">
+        <h2>Inscreva-se</h2>
+        <form onsubmit="return enviarEmail()">
+          <label for="nome">Nome:</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            required
+            placeholder="Nome"
+          />
+
+          <label for="email">E-mail:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Email"
+          />
+
+          <button onclick="enviarEmail" type="submit">Enviar</button>
+          <script>
+            function enviarEmail() {
+              alert("Agora você está inscrito!");
+            }
+          </script>
+        </form>
+      </div>
+    </main>
+    <section id="section-1">
+        <h1><span class="gray">Mais um pouco sobre a</span> VeDev</h1>
+
+        <p>A VeDev já colocou mais de 3 mil desenvolvedores na pista, saindo do zero direto para a linha de chegada como profissionais prontos para o mercado. Você está começando ou mudando de carreira? Esse é o seu ponto de partida.
+
+        Projetado para ser o motor de alta performance da sua carreira profissional, a VeDev oferece um plano de aprendizagem progressivo, te guiando passo a passo pelos fundamentos até a maestria em desenvolvimento web. Cada fase é otimizada para que você avance em velocidade máxima, aprendendo a enfrentar desafios e criar soluções inovadoras que colocam você à frente da concorrência.</p>
+        <button id="button-2">Inscreva-se Agora</button>
+    </section>
+    <footer>
+
+    </footer>
+
+    <script>
+      function enviarEmail() {
+        alert("Agora você está inscrito!");
+        return false; // Isso impede o recarregamento da página
+      }
+    </script>
+  </body>
+</html>
