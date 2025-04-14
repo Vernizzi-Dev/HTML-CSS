@@ -13,11 +13,11 @@
       <span>Método</span>
       <a href="cursos.html"><span>Cursos</span></a>
       <span>Depoimentos</span>
-      <span id="inscreva-se">Inscreva-se Agora</span>
+      <a href="increva-se.html"><span id="inscreva-se">Inscreva-se Agora</span></a>
     </header>
     <main id="wallpaper">
       <div class="form-container">
-        <h2>Inscreva-se</h2>
+        <h2>Entrar</h2>
         <form onsubmit="return enviarEmail()">
           <label for="nome">Nome:</label>
           <input
@@ -40,7 +40,7 @@
           <button onclick="enviarEmail" type="submit">Enviar</button>
           <script>
             function enviarEmail() {
-              alert("Agora você está inscrito!");
+              alert("Você entrou no site da VeDev");
             }
           </script>
         </form>
@@ -52,7 +52,10 @@
         <p>A VeDev já colocou mais de 3 mil desenvolvedores na pista, saindo do zero direto para a linha de chegada como profissionais prontos para o mercado. Você está começando ou mudando de carreira? Esse é o seu ponto de partida.
 
         Projetado para ser o motor de alta performance da sua carreira profissional, a VeDev oferece um plano de aprendizagem progressivo, te guiando passo a passo pelos fundamentos até a maestria em desenvolvimento web. Cada fase é otimizada para que você avance em velocidade máxima, aprendendo a enfrentar desafios e criar soluções inovadoras que colocam você à frente da concorrência.</p>
-        <a href="#wallpaper"><button id="button-2">Inscreva-se Agora</button></a>
+        <a href="increva-se.html"><button id="button-2">Inscreva-se Agora</button></a>
+    </section>
+    <section id="section-video">
+       <video src="video/video-vedev.mp4" controls></video>
     </section>
     <footer>
 
@@ -60,7 +63,7 @@
 
     <script>
       function enviarEmail() {
-        alert("Agora você está inscrito!");
+        alert("Você entrou no site da VeDev");
         return false; // Isso impede o recarregamento da página
       }
     </script>

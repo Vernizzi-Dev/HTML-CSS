@@ -159,7 +159,7 @@ span.gray{
 
 main#cursos{
     height: 57vw;
-    background-color: #19181bf4;
+    background-image: linear-gradient(to top, black, rgb(37, 37, 37), rgb(50, 50, 50));
 }
 div#opcoes-cursos{
     padding: 2vw;
@@ -234,4 +234,97 @@ span.azul{
 .card > button:hover{
     background-color: #44D2FF;
     color: #093f4f;
+}
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+}
+#section-video{
+    height: 35vw;
+    padding-top: 10vw;
+    background-image: linear-gradient(140deg, black, rgb(37, 37, 37), rgb(64, 64, 64));
+    border-top: 4px solid  #44D2FF;
+}
+video{
+    display: block;
+    width: 40vw;
+    margin: auto;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.716);
+    transition: 0.5s;
+    border: 2px solid  #44D2FF;
+    cursor: pointer;
+}
+video:hover{
+    width: 50vw;
+    transition: 0.6s;
+    box-shadow: 0px 0px 35px rgba(90, 233, 255, 0.529);
+}
+
+
+
+/*   INSCREVA-SE        INSCREVA-SE   */
+
+#header2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.retorn, .retorn > img{
+    position: absolute;
+    width: 3.5vw;
+    right: 85%;
+    bottom: 30%;
+    cursor: pointer;
+    border-radius: 1.4vw;
+}
+.retorn, .retorn > img:hover{
+    box-shadow: 0px 0px 20px rgba(152, 245, 255, 0.679);
+}
+main#wallpaper2{
+    align-items: center;
+    background-image: url(img/image_fx\ \(4\).jpg);
+    background-size: cover;
+    background-position: center top;
+    height: 52vw;
+    padding-top: 7vw;
+}
+.form-container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #19181B;
+    width: 25vw;
+    border-radius: 1.2vw;
+    padding: 2vw;
+    height: 35vw;
+    margin-left: 16vw;
+    color: white;
+    transition: 0.6s;
+}
+.form-container2:hover{
+    box-shadow: 0px 0px 43px rgba(255, 255, 255, 0.352);
+    transition: 0.8s;
+}
+.form-container2 > h2{
+    cursor: default;
+    font-size: 2.2vw;
+    margin-bottom: 1.4vw;
+}
+.button-retorn{
+    background-color: #44D2FF;
+    width: 28.7vw;
+    height: 6vw;
+    color:#093f4f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.1vw;
+    font-weight: bolder;
+    margin-left: 16vw;
+    margin-top: 4vw;
+    cursor: pointer;
+}
+.button-retorn:hover{
+    background-color: #6F44FF;
+    color: white;
+    border-radius: 1.5vw;
 }
