@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strong FIT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="section-1">
+        <h1>Strong FIT</h1>
+    </section>
+    <main>
+        <img src="img/soldado-bravo.png" onclick="clicar()" alt="soldado bravo" id="imgbravo" style="position: absolute; z-index: 10; top: 38vw; left: 50%; transform: translate( -50%); cursor: pointer;" >
+        <div id="divbravo" style="position: relative; display: none; background-color: blue; width: 100px; height: 200px; top: 15vw; margin: auto; transition: 1s;"></div>
+    </main>
+
+
+    <script>
+        let img1 = document.getElementById('imgbravo')
+        let divbravo = document.getElementById('divbravo')
+
+        function clicar(){
+            divbravo.style.display = 'block'
+            divbravo.style.width = '700px'
+            
+        }
+    </script>
+</body>
+</html>
